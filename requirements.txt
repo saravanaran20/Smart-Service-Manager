@@ -1,0 +1,11 @@
+# Core dependencies
+pandas>=1.5.0              # For report generation and CSV handling
+yagmail>=0.15.293          # For sending email notifications
+inquirer>=3.1.3            # For interactive CLI menus (optional)
+rich>=13.3.1               # Optional for styled CLI dashboard
+
+# Optional: Testing
+pytest>=7.2.0              # For unit testing modules
+
+# Optional: Linting (to follow PEP8)
+flake8>=6.0.0
